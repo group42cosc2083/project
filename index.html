@@ -42,6 +42,8 @@
     <h1 style="color:blue;">
         Tools
     </h1>
+    
+<!-- add -->
 
     <h1 style="color:blue;">
         Project Description
@@ -115,11 +117,10 @@
         In order to create a simple game using command lines, we choose to use the Pycharm application, which contains a very helpful utility called the pygame module. The first step in programming is to design a screen to display the visuals that will appear on the screen. This is a very simple but essential component of every game. We test the screen 800 pixels wide and 600 pixels tall, and we added the game's caption to the bottom left corner.
     </p>
 
-    
-    <img src="Picture3.png" alt="Image3">
-    <p> 
-        Screen appears
-    </p>
+    <figure>
+        <img src="Picture3.png" alt="Image3">
+        <figcaption>Screen appears</figcaption>
+    </figure>
 
     <h3>
         Image
@@ -129,11 +130,10 @@
         Now we testing if we can display anything on the screen surface. we add some code with will display a rectangle size of 200 and 400 with the former being the width and the latter being the height. we set the position of the rectangle as 10x50 and fill it colour with red.
     </p>
 
-    <img src="Picture4.png" alt="Image4">
-
-    <p>
-        A rectangle has been created 
-    </p>
+    <figure>
+        <img src="Picture4.png" alt="Image4">
+        <figcaption>A rectangle has been created </figcaption>
+    </figure>
 
     <p>
         The image displays perfectly on the screen surface.
@@ -143,11 +143,10 @@
         Now we create a simple animation by moving the rectangle with buttons. Each time we click the button, we'll program the image to move 10 frames in the direction we want. The old position of the image won't be erased when we move the new one, so we'll need to repeat this step to be able to overlap the old position so that it appears as though we're moving the image. To do this, we'll need to create a surface proportional to the scale of the screen before moving the image.
     </p>
 
-    <img src="Picture5.png" alt="Image5">
-
-    <p>
-        The rectangle had moved to the right
-    </p>
+    <figure>
+        <img src="Picture5.png" alt="Image5">
+        <figcaption>The rectangle had moved to the right</figcaption>
+    </figure>
 
     <p>
         The graphic shows a picture that has been altered before and after when we press the right button. 
@@ -181,18 +180,16 @@
         After everything is done, we import the map and player files into the main so that it reads the code and executes.
     </p>
 
-    <img src="Picture8.png" alt="Image8">
+    <figure>
+        <img src="Picture8.png" alt="Image8">
+        <figcaption>Trees, flowers, and character can be seen on the map.</figcaption>
+    </figure>
 
-    <p>
-        Trees, flowers, and character can be seen on the map.
-    </p>
-
-    <img src="Picture9.png" alt="Image9">
-    <img src="Picture10.png" alt="Image10">
-
-    <p>
-        The difference in an animation of the character
-    </p>
+    <figure>
+        <img src="Picture9.png" alt="Image9">
+        <img src="Picture10.png" alt="Image10">
+        <figcaption>The difference in an animation of the character</figcaption>
+    </figure>
 
     <p>
         The map has been effectively formed, as seen by the trees and flowers that give it life. Our character has also appeared on the map, when moving, the character is also formed with various images, such as the image on the left, the image above, and the default image.
@@ -269,18 +266,18 @@
 
     <table style="width:100%">
         <tr>
-            <th rowspan="4">In scope</th>
-            <th colspan="3">Features for protagonist </th>
+            <th rowspan="21", style="background-color:lightgray;">In scope</th>
+            <th colspan="3", style="background-color:lightgreen;">Features for protagonist </th>
         </tr>
 
         <tr>
-            <th>Priority</th>
-            <th>Feature</th>
-            <th>Description</th>
+            <th style="background-color:yellow;">Priority</th>
+            <th style="background-color:yellow;">Feature</th>
+            <th style="background-color:yellow;">Description</th>
         </tr>
 
         <tr>
-            <td rowspan="2">High</td>
+            <td rowspan="4">High</td>
             <td>Customize the character control buttons for the player.</td>
             <td></td>
         </tr>
@@ -293,5 +290,182 @@
             </td>
         </tr>
 
+        <tr>
+            <td>
+                Basic attack setup.
+            </td>
+
+            <td>
+                <p>
+                    -Press “SPACE” to perform a melee attack while also loading an image of character using the weapon. .
+                </p>
+
+                <p>
+                    -Press “CTRL” to perform magic use while also loading an image of character using the magic.
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Camera
+            </td>
+
+            <td>
+                Camera will follow the character if she moves.
+            </td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Mediium</td>
+            <td>The character can use different kinds of weapons.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Cast different spells.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Low</td>
+            <td>Character's level.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Character's HP and MP bar.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th colspan="3", style="background-color:lightgreen;">Features for protagonist </th>
+        </tr>
+
+        <tr>
+            <td>High</td>
+            <td>Design the first map.</td>
+            <td>
+                <p>-Design the first map.</p>
+                <p>-Contain obstacles like trees, flowers, rocks,…</p>
+                <p>-There are boundaries not left for the player to step outside.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Medium</td>
+            <td>Enemies.</td>
+            <td>
+                <p>-Different kinds of monsters.</p>
+                <p>-They will attack the protagonist if she comes in a certain distance.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="3", style="background-color:lightgreen;">Feature for player </th>
+        </tr>
+        
+        <tr>
+            <td rowspan = "3">High</td>
+            <td>Game storyline.</td>
+            <td>
+                The girl set out to enter the forbidden area of ​​the village, learning about the reason behind the mysterious monsters’ attack. 
+            </td>
+        </tr>
+
+        <tr>
+            <td>Homepage.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Video section.</td>
+            <td>Choose and play the chosen video.</td>
+        </tr>
+
+        <tr>
+            <td>Music section.</td>
+            <td>Choose and play the chosen music.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Game section.</td>
+            <td>Start up the game for the player.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Medium</td>
+            <td>Play background music.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Low</td>
+            <td>Save game.</td>
+            <td></td>
+        </tr>
+
+        <tr><td colspan="4", style="background-color:lightgreen;"></td></tr>
+
+        <tr>
+            <td rowspan="6">Out scope</td>
+        </tr>
+
+        <tr>
+            <td rowspan="5"></td>
+            <td>NPCS.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Game dialogues.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Different maps.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Collecting items.</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Game setting.</td>
+            <td></td>
+        </tr>
     </table>
+
+    <h3>Tools and Technologies</h3>
+    <p>
+        To be able to program our game, we need the PyCharm tool. With the aid of the program Pycharm, we can write code, design gaming screens, and store them as files that are easy to open and arrange. Hoang and Chau have used it many times in their previous programming class, they say it is a great application because it has many modules that help with programming, application creation or game making.
+    </p>
+
+    <p>
+        Additionally, we employ a program called Tiled, which turns pixelated images into lines of numbers. Pycharm occasionally needs to use these lines of numbers to pinpoint an image's location. When designing the map and placing the characters, Pycharm will rely on Tiled's file to locate the image where it is and place it there, making the map more vivid and rich. Kit is a Tiled user because he's our graphic designer. It is difficult to understand all the features of this application at first because it is necessary to find the right image and put it in the aspect ratio of the application to export. But after a few weeks of research, he was also able to create a perfect map with randomly arranged landscapes that can be exported to a file containing the numbers of the image locations.
+    </p>
+
+    <p>Example of Tiled:</p>
+
+    <figure>
+        <img src="Picture18.png" alt="Image18">
+        <figcaption>This image has an id of 0 and an empty image has an id of -1</figcaption>
+    </figure>
+
+    <figure>
+        <img src="Picture19.png" alt="Image19">
+        <figcaption>The image has been exported to a file containing the number</figcaption>
+    </figure>
+
+    <h3>Testing</h3>
+
+    <p>
+        The importance of testing cannot ever be overstated in programming. We must frequently test to ensure that everything is still operating as intended because a single error could cause the software to crash. When a section of the plan is finished, we often test it to see if it functions or not, checking things like the screen to see if the character picture displays or not, whether the character moves how we want it to, and so on. We occasionally run into issues with new parts because when they operate, they will often cause the old part to malfunction and prevent the program from starting. In these cases, we must return to the earlier parts and make the necessary adjustments to enable them to operate concurrently with the new part. So testing is crucial if we want to be able to correct errors that we missed while coding and improve the game.
+    </p>
+
+    <h3>Risks</h3>
 </html>
