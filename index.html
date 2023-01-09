@@ -173,29 +173,33 @@
     <p>
         The same technique from the image displayed on the screen above is implemented in the game to create an individual map. We must first work with the map so that we can layer the characters on top of it and loop them to give them motion. As there will be many photos to upload to the screen, such as trees, barriers, boulders, etc., we need to organize them into a dictionary function so that they load neatly and are simple to locate.
     </p>
-
+    
+    <p style="text-align:center;">
     <img src="Picture6.png" alt="Image6">
-
+    </p>
+    
     <p>
         For the player file, we not only loaded the images of the character like he moved right, left, up, down, idle image but also had to program the buttons so that when we press the button, we move the image of the character in the direction we click as shown above.
     </p>
-
+    
+    <p style="text-align:center;">
     <img src="Picture7.png" alt="Image7">
-
+    </p>
+    
     <p>
         After everything is done, we import the map and player files into the main so that it reads the code and executes.
     </p>
 
-    <figure>
+    <p style="text-align:center;">
         <img src="Picture8.png" alt="Image8">
-        <figcaption>Trees, flowers, and character can be seen on the map.</figcaption>
-    </figure>
+            <br> Trees, flowers, and character can be seen on the map
+    </p>
 
-    <figure>
+    <p style="text-align:center;">
         <img src="Picture9.png" alt="Image9">
         <img src="Picture10.png" alt="Image10">
-        <figcaption>The difference in an animation of the character</figcaption>
-    </figure>
+            <br>The difference in an animation of the character
+    </p>
 
     <p>
         The map has been effectively formed, as seen by the trees and flowers that give it life. Our character has also appeared on the map, when moving, the character is also formed with various images, such as the image on the left, the image above, and the default image.
@@ -208,15 +212,20 @@
     <p>
         Following the completion of the game's character and map. We came to understand that a character can only move within the confines of the screen; if they attempt to travel outside of it, they will vanish off the screen. We struggled to program the character to move across the entire map and were forced to learn more about the setup. We spent a lot of time researching the issue before we finally came up with a solution, which was to program a camera that would put the character in the center and follow the character wherever it went. This would allow us to move freely around the map without being concerned about our character vanishing.
     </p>
-
+    
+    <p style="text-align:center;">
     <img src="Picture11.png" alt="Image11">
+        
+    </p>
 
     <p>
         However, a new issue arises since our character is obscured by images of objects like trees and obstacles, and when we approach the edge of the map, we will exit into the dark, leading to a significant error in the game. Therefore, we must configure the collision command line so that whenever we approach an object's edge or the edge of the map, we are forbidden from moving any farther.
     </p>
     
+    <p style="text-align:center;">
     <img src="Picture12.png" alt="Image12">
 
+    </p>
     <p>
         With this, the game is approximately halfway finished, the character may now be moved anywhere without the graphics overlapping.
     </p>
